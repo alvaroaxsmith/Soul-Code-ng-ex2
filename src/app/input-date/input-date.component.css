@@ -1,0 +1,44 @@
+h1 {
+  text-align: center;
+  font-size: 1.4rem;
+
+}
+form {
+  font-weight: 600;
+  color: white;
+  padding: 1rem;
+  width: 10rem;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  box-shadow: 0 0 0.5em hsl(0, 0%, 15%);
+
+
+  background-image: linear-gradient(130deg, hsl(0, 0%, 75%), hsl(0, 0%, 60%));
+
+}
+form label {
+  align-self: flex-start;
+}
+form label:first-child {
+  padding-top: 2.4rem;
+}
+form input {
+  border: solid 1px black;
+  margin-top: 1.55rem;
+  margin-bottom: 1rem;
+}
+#button {
+  background-color: hsl(0, 20%, 27%);
+  color: white;
+  border: none;
+  height: 2rem;
+  font-weight: 600;
+  border-radius: 1rem;
+}
+#button:hover {
+  background-color: hsl(0, 20%, 47%);
+  box-shadow: 0 0 0.5em hsl(0, 20%, 17%);
+  font-weight: 800;
+}
